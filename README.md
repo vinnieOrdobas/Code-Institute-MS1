@@ -1,11 +1,18 @@
-# Your Project's Name
+# Doug's Gym
 
-One or two paragraphs providing an overview of your project.
+A one page web app showcasing Doug's Gym's facilities, conveying a healthy lifestyle and a friendly community.
 
-Essentially, this part is your sales pitch.
+A brief gallery to show potential users and a sign-up form for the monthly service. 
  
 ## UX
  
+Client Requests:
+
+- To reduce loading time by using small-size images and to simplify design
+- Have a sign-up form to make it easy for users to sign for the service
+- Have a login page for users book classes
+- Must be responsive on main-stream devices (tablets, phones, desktops, etc)
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
