@@ -2,7 +2,6 @@
 
 A one page web app showcasing Doug's Gym's facilities, conveying a healthy lifestyle and a friendly community.
 
-A brief gallery to show potential users and a sign-up form for the monthly service. 
  
 ### Table of Contents
 
@@ -46,26 +45,26 @@ Doug's Club website aims at a broader community, targeting people from diverse b
 
 #### 1. Strategy
 
-> The aim of this project is to grow awareness and community engagement, hence keeping the UX simple and user-friendly and leading users to contact via email and/or join our Facebook community Page.
+> The goal of this endeavour is to offer a service which will improve general well-being and help users to choose a healthier lifestyle.
 >
 > ##### Project Goals:
 >
-> - Raising awareness on the important connecting and appreciating our environment.
+> - Offer a simple and fast way to sign-up for the service, to book classes and interact with the community.
 >
-> - Building on community awareness of the natural beauty that Ireland has to offer.
+> - Increase the perception of how a healthy lifestyle can improve general well-being.
 >
-> - Growing member database via email and direction to Facebook Group interactivity.
+> - Enlarge member's database through social media.
 >
 > ##### Customer Goals:
 >
-> - Designed site with Mobile-first approach
-> - Easy-to-read info. Long enough to understand the content, yet short enough not to overwhelm.
-> - Imagery used for intuitive explanation of trips and showing inviting scenery.
-> - Contact form with radio button options to narrow down user interest type.
-> - Easy reference to Social Media from anywhere on the site.
-> - Strong contrasting Social Media icons in the footer.
-> - Fixed navigation bar providing user easy navigation reference.
-> - Fixed footer providing quick reference to Social Media links.
+> - Enhanced UX design through mobile-first approach.
+> - Clear and concise content, simple interaction with the system to attain a quick yet efficient visit.
+> - Learn about the infrastructure of the club and its class framework through visual content.
+> - Footer supplying links to Social Media.
+> - Effortless sign-up service.
+> - Navigation bar for a smoother navigation.
+> - Diminished time to load the page and content, in order to speed up the experience.
+> - Book classes on-the-fly.
 
 #### 2. Scope
 
