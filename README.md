@@ -7,7 +7,7 @@ A one page web app showcasing Doug's Gym's facilities, conveying a healthy lifes
 
 > - Description - x
 > - User Stories - x
-> - UX
+> - UX - x
 > - Features
 > - Technologies Used
 > - References for learning
@@ -74,13 +74,12 @@ Doug's Club website aims at a broader community, targeting people from diverse b
 > - Map location of the club.
 > - Sign-up form.
 > - Straightforward UX for the users.
-> - Features that match my current skills.
+> - Features that match my current knowledge.
 #### 3. Structure
 
-> The main focus of the structure is to allow Users to quickly assimilate the information and imagery. 
-> Short, focused paragraphs of content information to provide enough information, yet not overwhelm.
-> A selection of quality images to provide a taste of the trips and options offered.
-> Points of contact are provided via email contact form and links to Social Media in Footer.
+>  On the structure plan, the effort was concentrated on prompting the user to quickly understand the layout of the page and find the content easily digestible - hence the content is structured on a bite-size framework. 
+>  The gallery presents pictures of the club and are organised in a simple slide show widget with a brief description of the room - 
+>  navigation bar intends to improve the returning user's experience.
 
 #### 4. Skeleton
 
