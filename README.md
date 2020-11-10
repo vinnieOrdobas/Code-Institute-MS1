@@ -68,13 +68,13 @@ Doug's Club website aims at a broader community, targeting people from diverse b
 
 #### 2. Scope
 
-> I've decided on an MVP (Minimal Viable Product) approach, which:
+> The focus here is to achieve a version of the website with just enough features to be usable - the concept of Minimum viable product (MVP), that contains:
 >
-> - Provides a clean UX for users.
-> - Fits in with my current skill-set.
-> - Quickly defines the content and focus on getting in touch via email or social media.
-> - I've included some **basic** animations to subtly enhance the overall experience.
-
+> - Catalog wiht pictures depicting the amenities of the club.
+> - Map location of the club.
+> - Sign-up form.
+> - Straightforward UX for the users.
+> - Features that match my current skills.
 #### 3. Structure
 
 > The main focus of the structure is to allow Users to quickly assimilate the information and imagery. 
