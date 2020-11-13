@@ -8,7 +8,7 @@ A one page web app showcasing Doug's Gym's facilities, conveying a healthy lifes
 > - Description - x
 > - User Stories - x
 > - UX - x
-> - Features
+> - Features - x
 > - Technologies Used
 > - References for learning
 > - Testing
@@ -85,7 +85,7 @@ Doug's Club website aims at a broader community, targeting people from diverse b
 
 > - [Wireframes](assets/docs/wireframes.pdf): One-page website with **4** main sections
 >
-> - Home, About (Trips), Gallery and Contact Section/Pages
+> - Home, About (Who are we?, What's in for you?, What do we offer?), Gallery, Team and Sign-Up/Contact Section/Pages
 >
 > - Fixed navigation bar - Menu headings pointing to each of the 4 pages.
 >
