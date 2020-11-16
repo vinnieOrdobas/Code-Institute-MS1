@@ -9,11 +9,11 @@
     <title>Doug's Club</title>
 </head>
 <body>
-    <article class="container-fluid">
+    <article class="container">
         <!--Navigation bar-->
-        <section class="nav-bar">
+        <div class="nav-bar">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-12 col-md-4">
                     <h3>
                         logo
                     </h3>
@@ -25,26 +25,49 @@
                     <span class="badge badge-default">nav menu</span>
                 </div>
             </div>
-        </section>
+        </div>
         <!--/.Navigation bar-->
 
         <!--Hero Image-->
         <section class="hero-image">
             <div class="row">
-                <div class="col-md-12">
-                    <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" /> <span class="badge badge-default">Label</span>
+                <div class="col-12">
+                    <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" /> <span class="badge badge-default"></span>
                 </div>
             </div>
         </section>
         <!--/.Hero image-->
         <!--About-->
-        <section class="about">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="badge badge-default">About-1</span>
+        <div class="container-wrapper">
+            <section class="about">
+                <div class="row"> <!--About/header-->
+                    <div class="col-12 page-header">
+                        <h1>About</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <span class="badge badge-default">About-1</span>
+                        <div class="card">
+                            <h5 class="card-header">
+                                Who are we?
+                            </h5>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Card content
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                Card footer
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <span class="badge badge-default">About-2</span>
                     <div class="card">
                         <h5 class="card-header">
-                            Who are we?
+                            What's in for you
                         </h5>
                         <div class="card-body">
                             <p class="card-text">
@@ -56,47 +79,36 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <span class="badge badge-default">About-2</span>
-                <div class="card">
-                    <h5 class="card-header">
-                        What's in for you
-                    </h5>
-                    <div class="card-body">
-                        <p class="card-text">
-                            Card content
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        Card footer
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <span class="badge badge-default">About-3</span>
-                <div class="card">
-                    <h5 class="card-header">
-                        What do we offer
-                    </h5>
-                    <div class="card-body">
-                        <p class="card-text">
-                            Card content
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        Card footer
+                <div class="col-12 col-md-6 col-lg-4">
+                    <span class="badge badge-default">About-3</span>
+                    <div class="card">
+                        <h5 class="card-header">
+                            What do we offer
+                        </h5>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Card content
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            Card footer
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <!--/.About-->
         
         <!--Gallery-->
         <section class="gallery">
             <div class="row">
+                <div class="col-12 page-header">
+                    <h1>Gallery</h1>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-12">
-                    <span class="badge badge-default">Gallery</span>
+                    <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
                 </div>
             </div>
         </section>
@@ -105,10 +117,15 @@
         <!--Team-->
         <section class="team">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-12 page-header">
+                    <h1>Meet Doug's Team</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
                     <div class="card">
                         <h5 class="card-header">
-                            Meet Doug's Team
+                            Doug
                         </h5>
                         <div class="card-body">
                             <p class="card-text">
@@ -120,10 +137,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-12 col-md-6">
                     <div class="card">
                         <h5 class="card-header">
-                            Card title
+                            Ronnie
                         </h5>
                         <div class="card-body">
                             <p class="card-text">
@@ -141,11 +158,16 @@
 
         <!--Sign-up-->
         <section class="signup">
+            <div class="row signup-header">
+                <div class="col-12">
+                    <h1>Sign-me up</h1>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="card">
                         <h5 class="card-header">
-                            Sign-me up
+                            Sign-me up form
                         </h5>
                         <div class="card-body">
                             <p class="card-text">
