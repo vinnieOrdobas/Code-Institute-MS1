@@ -21,3 +21,7 @@ div[class^="col-"] {
     justify-content:center;
     align-items:flex-start;
 }
+
+.text-uppercase {
+    text-transform: uppercase;
+}
