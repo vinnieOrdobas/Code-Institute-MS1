@@ -13,6 +13,12 @@ div[class^="col-"] {
     justify-content:flex-start;
 }
 
+.navbar-nav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
 /** ---------------------Section Headers--------------------- **/
 
 .section-header {
