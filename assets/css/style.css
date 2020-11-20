@@ -7,11 +7,10 @@ div[class^="col-"] {
     outline: 1px dotted rgba(0, 0, 0, 0.5);
 }
 
-.navbar {
+.navbar-brand {
     padding: 0;
     display: flex;
-    justify-content:flex-end;
-    align-items:flex-end;
+    justify-content:flex-start;
 }
 
 /** ---------------------Section Headers--------------------- **/
