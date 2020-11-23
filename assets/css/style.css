@@ -24,3 +24,7 @@ div[class^="col-"] {
 .alert-secondary {
     background-color: rgba(0, 0, 0, 0.25);
 }
+
+.card-body {
+    padding-top: 80px;
+}
