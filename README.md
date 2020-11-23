@@ -12,7 +12,7 @@ A one page web app showcasing Doug's Gym's facilities, conveying a healthy lifes
 > - Technologies Used
 > - References for learning
 > - Testing
-> - Project barriers and the solutions
+> - Bugs and the turnarounds
 > - Code validity
 > - Version Control
 > - Deployment
@@ -225,9 +225,9 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 ---
 
-### Project barriers and solutions
+### Bugs and turnarounds
 
-> - Bootstrap carousel works fine on desktop views with landscape images, but on mobile created large white space underneath. To overcome this I started a new branch called 'Gallery-carousel'. I then added a background image to the carousel on mobile views and centered the carousel on each media query. I then merged the branch with the master branch.
+> - Bootstrap grid wasn't aligning properly in different screen resolutions, specially the "Team" section. The way around was to change the structure slightly, by using the card component and putting each one of them inside of their own row.
 > - About Section 'cards' were aligning fine, but uneven bottom according to how much text entered in each. Overcame by researching online and finding a workable solution on Stack Overflow using Bootstrap's d-flex and flex-fill values.
 > - Contact form was not being responsive on smaller laptop views. To overcome this, I included the form in a Bootstrap Grid layout.
 > - Was still not entirely happy with Carousel on mobile views and decided create a static gallery of images in mobile and tablet views instead.
