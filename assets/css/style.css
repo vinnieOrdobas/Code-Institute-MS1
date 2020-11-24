@@ -1,14 +1,5 @@
-div[class="row"] {
-    outline: 1px dotted rgba(0, 0, 0, 0.25);
-}
-
-div[class^="col-"] {
-    background-color: rgba(255, 0, 0, 0.2);
-    outline: 1px dotted rgba(0, 0, 0, 0.5);
-}
-
 body {
-    font-family: 'Teko', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -20,7 +11,7 @@ body {
 
 .container-hero {
     height: 100vh;
-    background: url("../images/hero-image.jpg") no-repeat bottom right fixed; 
+    background: url("../images/hero-image.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -51,6 +42,8 @@ body {
     display:flex;
     justify-content:center;
     align-items:flex-start;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 3px;
 }
 
 .text-uppercase {
@@ -60,11 +53,78 @@ body {
 /** ---------------------Components--------------------- **/
 
 .hero-j {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: transparent;
 
 }
 
-.horizontal-rule {
+.hero-j .section-header {
+    font-weight: bold;
+    color: #AE3A21;
+
+}
+
+
+/** ---------------------Block Dividers--------------------- **/
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: whitesmoke;
+}
+
+.block-divider .black {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: black;
+}
+
+
+/** ---------------------Buttons--------------------- **/
+
+.button-signup {
+    font-weight: bold;
+    border-radius:23px;
+    width: 160px;
+    background-color: #7f7f8d;
+    border-color: black;
     color: whitesmoke;
 }
 
+.button-signup:hover,
+.button-signup:active,
+.button-signup:focus,
+.button-signup:active:focus {
+    background-color: #65c502;
+    border-color: #65c502;
+}
+
+
+/** ---------------------Navbar--------------------- **/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.navbar .navbar-toggler {
+    margin:0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2px;
+    color: #AE3A21;
+}
