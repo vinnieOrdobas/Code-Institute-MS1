@@ -50,3 +50,7 @@ div[class^="col-"] {
 .horizontal-rule {
     color: whitesmoke;
 }
+
+.article-container {
+    padding: 0;
+}
