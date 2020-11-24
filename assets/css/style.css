@@ -31,7 +31,7 @@ div[class^="col-"] {
 
 .hero-container {
     height: 100vh;
-    background: url("../assets/images/hero-image.jpg") no-repeat bottom right fixed; 
+    background: url("../images/hero-image.jpg") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -40,4 +40,13 @@ div[class^="col-"] {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.hero-j {
+    background-color: rgba(0, 0, 0, 0.25);
+
+}
+
+.horizontal-rule {
+    color: whitesmoke;
 }
