@@ -7,6 +7,40 @@ div[class^="col-"] {
     outline: 1px dotted rgba(0, 0, 0, 0.5);
 }
 
+
+/** ---------------------Section Containers--------------------- **/
+
+.article-container {
+    padding: 0;
+}
+
+.container-hero {
+    height: 100vh;
+    background: url("../images/hero-image.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-about {}
+
+.container-gallery-header {}
+
+.container-gallery {}
+
+.container-team-header {}
+
+.container-team {}
+
+.container-signup-header {}
+
+.container-signup {}
+
 /** ---------------------Section Headers--------------------- **/
 
 .section-header {
@@ -21,27 +55,6 @@ div[class^="col-"] {
 
 /** ---------------------Components--------------------- **/
 
-.alert-secondary {
-    background-color: rgba(0, 0, 0, 0.25);
-}
-
-.card-body {
-    padding-top: 80px;
-}
-
-.hero-container {
-    height: 100vh;
-    background: url("../images/hero-image.jpg") no-repeat bottom right fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .hero-j {
     background-color: rgba(0, 0, 0, 0.25);
 
@@ -51,6 +64,3 @@ div[class^="col-"] {
     color: whitesmoke;
 }
 
-.article-container {
-    padding: 0;
-}
