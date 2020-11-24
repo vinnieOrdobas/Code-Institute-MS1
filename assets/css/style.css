@@ -7,6 +7,10 @@ div[class^="col-"] {
     outline: 1px dotted rgba(0, 0, 0, 0.5);
 }
 
+body {
+    font-family: 'Teko', sans-serif;
+}
+
 
 /** ---------------------Section Containers--------------------- **/
 
