@@ -41,6 +41,8 @@ body {
 /** ---------------------Section Headers--------------------- **/
 
 .section-header {
+    margin-bottom: 0;
+    border-bottom:0;
     display:flex;
     justify-content:center;
     align-items:flex-start;
@@ -132,4 +134,18 @@ body {
 
 .navbar .navbar-nav a {
     font-weight:bold;
+}
+
+/** ---------------------Content Containers--------------------- **/
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom:75px;
+}
+
+/** ---------------------Container Wrappers--------------------- **/
+
+.container-wrapper--grey {
+    background-color:#0b2622;
+    color:whitesmoke;
 }
