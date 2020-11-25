@@ -22,9 +22,7 @@ body {
     justify-content: center;
 }
 
-.container-about-card {
-    display: inline-block;
-}
+.container-about {}
 
 .container-gallery-header {}
 
@@ -139,13 +137,27 @@ body {
 /** ---------------------Content Containers--------------------- **/
 
 .content-container {
-    padding-top: 75px;
-    padding-bottom:75px;
+    padding-top: 25px;
+    padding-bottom:50px;
 }
 
 /** ---------------------Container Wrappers--------------------- **/
 
-.container-wrapper--grey {
-    background-color:#0b2622;
+.container-wrapper--red {
+    background-color:#003049;
     color:whitesmoke;
 }
+
+/* Features */
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
