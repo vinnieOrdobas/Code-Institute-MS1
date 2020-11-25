@@ -121,12 +121,15 @@ body {
 }
 
 .navbar .navbar-toggler {
-    margin:0;
+    border:0;
 }
 
 .navbar-brand {
     font-weight: bold;
     font-family: 'Teko', sans-serif;
     letter-spacing: 2px;
-    color: #AE3A21;
+}
+
+.navbar .navbar-nav a {
+    font-weight:bold;
 }
