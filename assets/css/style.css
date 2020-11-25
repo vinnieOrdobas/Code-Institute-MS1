@@ -148,7 +148,7 @@ body {
     color:whitesmoke;
 }
 
-/* Features */
+/** ---------------------Features--------------------- **/
 
 .feature {
     text-align: center;
@@ -161,3 +161,11 @@ body {
     line-height: 45px;
 }
 
+
+/** ---------------------Name Headers--------------------- **/
+
+.name-header {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}

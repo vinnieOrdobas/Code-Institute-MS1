@@ -292,6 +292,8 @@ This project has been deployed on GitHub Pages with the following process:
 > - ['djibe' on Stack Overflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns) - Code idea for cards inside Jumbotron.
 > - [W3.org](https://www.w3.org/2005/10/howto-favicon) - How to add a Favicon to site.
 > - [Orel Eliyahu' on Stack Overflow](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked) for the code solution to closing hamburger menu once menu item clicked.
+https://snippets.wrappixel.com/bootstrap-our-team-section/
+https://www.behance.net/gallery/101605857/Arnie-Gym-website
 
 ---
 
