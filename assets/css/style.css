@@ -22,7 +22,9 @@ body {
     justify-content: center;
 }
 
-.container-about {}
+.container-about-card {
+    display: inline-block;
+}
 
 .container-gallery-header {}
 
@@ -66,14 +68,14 @@ body {
 
 /** ---------------------Block Dividers--------------------- **/
 
-.block-divider {
+.block-divider--white {
     width: 75px;
     height: 5px;
     border: 0;
     background-color: whitesmoke;
 }
 
-.block-divider .black {
+.block-divider--black {
     width: 75px;
     height: 5px;
     border: 0;
@@ -88,7 +90,7 @@ body {
     border-radius:23px;
     width: 160px;
     background-color: #7f7f8d;
-    border-color: black;
+    border-color: 7f7f8d;
     color: whitesmoke;
 }
 
@@ -96,8 +98,8 @@ body {
 .button-signup:active,
 .button-signup:focus,
 .button-signup:active:focus {
-    background-color: #65c502;
-    border-color: #65c502;
+    background-color: #AE3A21;
+    border-color: #AE3A21;
 }
 
 
