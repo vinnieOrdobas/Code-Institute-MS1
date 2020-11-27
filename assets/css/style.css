@@ -170,7 +170,7 @@ body {
 
 /** ---------------------Name Headers--------------------- **/
 
-.name-header {
+.name-header  {
     font-family: 'Teko', sans-serif;
     text-transform: uppercase;
 }
@@ -184,6 +184,13 @@ body {
 .about-header {
     margin-bottom: 60px;
 }
+
+.name-header-footer {
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    margin-top:15px;
+}
+
 
 /** ---------------------Team Code-Snippet--------------------- **/
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
@@ -259,3 +266,15 @@ body {
     outline: 0;
     box-shadow: 0 0 0 #F44336
 }
+
+/** ---------------------Footer--------------------- **/
+
+footer {
+    background-color: #525252;
+    color:whitesmoke;
+    min-height: 50px;
+    margin: 0;
+}
+
+
+/** ---------------------Images--------------------- **/

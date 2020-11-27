@@ -228,7 +228,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 ### Bugs and turnarounds
 
 > - Bootstrap grid wasn't aligning properly in different screen resolutions, specially the "Team" section. The way around was to change the structure slightly, by using the card component and putting each one of them inside of their own row.
-> - About Section 'cards' were aligning fine, but uneven bottom according to how much text entered in each. Overcame by researching online and finding a workable solution on Stack Overflow using Bootstrap's d-flex and flex-fill values.
+> - Meet the crew section had issues with image size for different devices - the rounded pictures were to big for smaller devices. Found the solution on [Stack Overflow](https://stackoverflow.com/questions/29641526/how-can-images-be-resized-using-bootstrap#:~:text=Use%20class%3D%22img%2Dresponsive,Its%20a%20bootstrap%20class).
 > - Contact form was not being responsive on smaller laptop views. To overcome this, I included the form in a Bootstrap Grid layout.
 > - Was still not entirely happy with Carousel on mobile views and decided create a static gallery of images in mobile and tablet views instead.
 > - Bootstrap Carousel on desktop views was being cut off at the bottom and allowed no space for Gallery heading. To overcome this I wrapped the carousel in its own Bootstrap Container. Added the Gallery heading above keeping the entire site consistent.
@@ -287,7 +287,7 @@ This project has been deployed on GitHub Pages with the following process:
 > ##### Code Snippets
 >
 > - [CSS-Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) - Background image opacity on Contact page.
-> - [Code Institute](https://codeinstitute.net/) - Inspiration for contact form from 'Love Running' Mini-Project in CSS Module.
+> - [Code Institute](https://codeinstitute.net/) - Inspiration for general layout from 'Whisky Drop' Mini-Project in CSS Module.
 > - [Shuva Mallick](https://jsfiddle.net/shuvamallick/3o0h5oka/) - Inspiration code for Submit button colour slide effect.
 > - ['djibe' on Stack Overflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns) - Code idea for cards inside Jumbotron.
 > - [W3.org](https://www.w3.org/2005/10/howto-favicon) - How to add a Favicon to site.
@@ -295,6 +295,7 @@ This project has been deployed on GitHub Pages with the following process:
 https://snippets.wrappixel.com/bootstrap-our-team-section/
 https://www.behance.net/gallery/101605857/Arnie-Gym-website
 https://bbbootstrap.com/snippets/simple-payment-credit-card-form-41641728
+['israel Villacís' on Stack Overflow]https://stackoverflow.com/questions/29641526/how-can-images-be-resized-using-bootstrap#:~:text=Use%20class%3D%22img%2Dresponsive,Its%20a%20bootstrap%20class.
 
 ---
 
