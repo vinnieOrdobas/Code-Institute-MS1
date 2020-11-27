@@ -294,6 +294,7 @@ This project has been deployed on GitHub Pages with the following process:
 > - [Orel Eliyahu' on Stack Overflow](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked) for the code solution to closing hamburger menu once menu item clicked.
 https://snippets.wrappixel.com/bootstrap-our-team-section/
 https://www.behance.net/gallery/101605857/Arnie-Gym-website
+https://bbbootstrap.com/snippets/simple-payment-credit-card-form-41641728
 
 ---
 

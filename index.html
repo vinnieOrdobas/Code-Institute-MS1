@@ -49,7 +49,7 @@
                 </ul>
             </div>
             <div class="d-none d-md-block">
-                <a href="/login" class="btn button-signup">Sign in</a>
+                <button type="button" class="btn button-signup" data-toggle="modal" data-target="#exampleModal">Sign in</button>
             </div>
         </nav>
     </div>
@@ -65,9 +65,9 @@
                             <hr class="block-divider--white">
                             <p class="hero-j text"> At Doug's, we <strong>Evolve</strong> together.</p>
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-lg button-signup" data-toggle="modal" data-target="#exampleModal">
+                            <a href="#" class="btn btn-lg button-signup">
                             Sign me up!
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -289,11 +289,41 @@
         <!--/Sign-up Header-->
         <!--Sign-up Form-->
         <div class="container-fluid container-signup content-container">  
-            <div class="row">
+            <div class="row ">
                 <div class="col-12 col-lg-6">
-                    <section class="signup-form">
-                        <h1>Sign-up form</h1>
-                    </section>
+                    <form role="form">
+                        <div class="row justify-content-center">
+                            <div class="col-8">
+                                <div class="form-group">
+                                    <label for="InputEmail">
+                                        Email address
+                                    </label>
+                                    <input type="email" class="form-control" id="InputEmail" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="InputPassword">
+                                        Password
+                                    </label>
+                                    <input type="password" class="form-control" id="InputPassword" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="InputPassword2">
+                                        Confirm Password
+                                    </label>
+                                    <input type="password" class="form-control" id="InputPassword2" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="InputCreditCard">
+                                        Credit Card Number
+                                    </label>
+                                    <input type="password" class="form-control" id="InputCreditCard" />
+                                </div>
+                                <button type="submit" class="btn btn-primary">
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
                 <div class="col-12 col-lg-6">
                     <section class="findus">
@@ -309,7 +339,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Sign Me Up!</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
