@@ -95,22 +95,22 @@ Doug's Club website aims at a broader community, targeting people from diverse b
 
 #### 5. Surface
 
-I've decided on a relaxed, yet exciting visual experience reflecting nature and peacefulness coupled with exhilaration of more extreme 4x4 routes and breath-taking views.
+Through some research, I've found that Gym websits praise contrast between colour palettes, so I've picked darker tones in contrast with brighter colours, albeit with darker tonalities.
 
 > ###### Colours
 >
-> Neutral earth-tones, reflecting the environment, inviting the User 'outdoors'. 
-> - I've chosen 2 primary greens for backgrounds (#eef4db) and headings (#425012). 
-> - For body text, I've used a combination of a dark grey (#242424) and off-white (#fafafa), maintaining strong, balanced contrasts.
+> Darker grafite tonalities, black-and-white hero image in contrast with brighter tones - to make components "jump" and to mimic moviment. 
+> - I've picked a bright, deep ocean blue(#003049) for one of the background-wrappers and a leafy green(#003049) for the other. 
+> - For body text, I've used a combination of regular black, whitesmoke for the bright text. For the button-togglers and the text the jumbotron, I've chosen a darker "blood red" (#AE3A21)
 > 
 > ###### Typography
 >
-> - "Varela Round" font (with fall-back font of Verdana) for main headings. This font was specifically chosen for its rounded edges, which relate to natural curves in nature.
-> - "Cabin" font (with fall-back font of Sans-Serif) for body content.
+> - "Teko" font (with fall-back font of Sans-Serif) for main headings. This font was picked for its hard angles, to create a stronger contrast with background-colours.
+> - "Roboto" font (with fall-back font of Sans-Serif) for body content.
 >
 > ###### Images
 >
-> The image selection has been carefully chosen to depict both relaxed road trips for beginners (to instill confidence in taking part as a newcomer); and more extreme 4x4 experiences for the advanced, familiar user.
+> The images are a representation of what a GYM would have for infrastructure, as a way for customers to see it before visiting the club.
 
 ---
 
@@ -118,7 +118,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 ##### Existing Features
 
-> - Designed with HTML5, CSS3 and Bootstrap.
+> - Designed with HTML5, CSS3, Bootstrap and Flexbox.
 > - Single page site with 4 sections acting as individual pages.
 > - Fixed navigation allows the user to easily navigate, regardless of which page visited.
 > - Fixed footer allows the user quick accessibility to social media links.
