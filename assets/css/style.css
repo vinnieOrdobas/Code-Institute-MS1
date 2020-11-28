@@ -275,20 +275,20 @@ body {
 /** ---------------------Footer--------------------- **/
 
 footer {
-    background-color: #525252;
+    background-color: rgba(0,0,0,0.5);
     color:whitesmoke;
-    min-height: 50px;
+    min-height: 30px;
     margin: 0;
 }
 
 .social-links li a i {
     margin-top: 15px;
-    width: 48px;
-    height: 48px;
+    width: 32px;
+    height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 25px;
-    line-height: 21px;
+    font-size: 18px;
+    line-height: 10px;
     text-align: center;
     color: whitesmoke;
     background: #8f8f8f;
