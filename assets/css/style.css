@@ -100,10 +100,28 @@ body {
     color: whitesmoke;
 }
 
+.button-signin {
+    font-weight: bold;
+    border-radius:50%;
+    width: 32px;
+    height: 32px;
+    background-color: #7f7f8d;
+    border-color: 7f7f8d;
+    color: whitesmoke;
+}
+
 .button-signup:hover,
 .button-signup:active,
 .button-signup:focus,
 .button-signup:active:focus {
+    background-color: #AE3A21;
+    border-color: #AE3A21;
+}
+
+.button-signin:hover,
+.button-signin:active,
+.button-signin:focus,
+.button-signin:active:focus {
     background-color: #AE3A21;
     border-color: #AE3A21;
 }
@@ -193,7 +211,7 @@ body {
 .name-header-footer {
     font-family: 'Teko', sans-serif;
     text-transform: uppercase;
-    margin-top:15px;
+    margin-top:18px;
 }
 
 
@@ -275,7 +293,7 @@ body {
 /** ---------------------Footer--------------------- **/
 
 footer {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.60);
     color:whitesmoke;
     min-height: 30px;
     margin: 0;
