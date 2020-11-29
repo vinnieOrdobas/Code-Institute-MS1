@@ -83,13 +83,13 @@ Doug's Club website aims at a broader community, targeting people from diverse b
 
 #### 4. Skeleton
 
-> - [Wireframes](assets/docs/wireframes.pdf): One-page website with **4** main sections
+> - [Wireframes](assets/docs/wireframes.pdf): One-page website with five sections
 >
-> - Home, About (Who are we?, What's in for you?, What do we offer?), Gallery, Team and Sign-Up/Contact Section/Pages
+> - Home, About , Gallery, Crew and Sign-Up/Contact sections.
 >
-> - Fixed navigation bar - Menu headings pointing to each of the 4 pages.
+> - Navigation bar - Links to each section with a sign-in option.
 >
-> - Fixed Footer with Copyright info and Social Media icons
+> - Footer with social media link and copyrights.
 
 ---
 
@@ -119,17 +119,17 @@ Through some research, I've found that Gym websits praise contrast between colou
 ##### Existing Features
 
 > - Designed with HTML5, CSS3, Bootstrap and Flexbox.
-> - Single page site with 4 sections acting as individual pages.
+> - Single page site with five sections acting as individual pages.
 > - Fixed navigation allows the user to easily navigate, regardless of which page visited.
 > - Fixed footer allows the user quick accessibility to social media links.
-> - Auto-scrolling carousel on desktop and tablet landscape views for vivid imagery experience.
-> - Fixed, stacked images for mobile views, with soft box-shadow.
-> - Contact Form with radio buttons.
+> - Carousel with subtitles to introduce the club's infrastructure.
+> - Adjusable pictures with rounded frames for introduce the crew.
+> - Sign up form and find us with an embedded map.
 
-##### Features Left to Implement when skills develop
+##### Features to implement
 
-> - Form submission button needs to be functional (once Javascript is learnt).
-> - Integration of Social media Page to have a live update feeds of planned trips and events.
+> - Sign-in page with functionalities to book classes in advance.
+> - Settings page to set user's preferences. 
 
 ---
 
@@ -137,25 +137,25 @@ Through some research, I've found that Gym websits praise contrast between colou
 
 ##### 1. Languages
 
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593529419/Logos/html5-50_groo6o.png)   [HTML5](https://en.wikipedia.org/wiki/HTML5).
+> [HTML5](https://en.wikipedia.org/wiki/HTML5)
 >
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593529419/Logos/CSS3-50_slrv0x.png)    [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).
+> [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ##### 2. Integrations
 
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/Bootstrap-50_khpj57.png)   [Bootstrap](https://getbootstrap.com/) - by linking via [BootstrapCDN](https://www.bootstrapcdn.com/) to HTML Doc.
+> [Bootstrap](https://getbootstrap.com/) - [BootstrapCDN](https://www.bootstrapcdn.com/)
 >
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/fontawesome-50_r5df5h.png) [FontAwesome](https://fontawesome.com/) Icons for Social Media links in Footer.
+> [FontAwesome](https://fontawesome.com/)
 >
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/GoogleFonts-50_mx57p6.png) [Google Fonts](https://fonts.google.com/) - Overall Typography import.
+> [Google Fonts](https://fonts.google.com/)
 
 ##### 3. Workspace, version control and Repository storage
 
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593518541/Logos/gitpod-50_qaxo1q.png)  [GitPod](https://github.com/mkuti/corklagos-venture/blob/master/gitpod.io) - Main workspace IDE (Integrated Development Environment)
+> [GitPod](https://github.com/mkuti/corklagos-venture/blob/master/gitpod.io) - Main workspace IDE (Integrated Development Environment)
 >
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593518772/Logos/git-50_znskan.png) [Git](https://git-scm.com/) - Distributed Version Control tool to store versions of files and track changes.
+> [Git](https://git-scm.com/) - Distributed Version Control tool to store versions of files and track changes.
 >
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593518773/Logos/github-50_ixwpch.png)  [GitHub](https://github.com/) - A cloud-based hosting service to manage my **Git** repositories.
+> [GitHub](https://github.com/) - A cloud-based hosting service to manage my **Git** repositories.
 
 ##### 4. Other
 
@@ -227,12 +227,13 @@ Through some research, I've found that Gym websits praise contrast between colou
 
 ### Bugs and turnarounds
 
-> - Bootstrap grid wasn't aligning properly in different screen resolutions, specially the "Team" section. The way around was to change the structure slightly, by using the card component and putting each one of them inside of their own row.
+> - The "Crew" section had aligning issues with lack of structure. The way around was to use a code snippet I found on [WrapPixel](https://snippets.wrappixel.com/bootstrap-our-team-section/) and change the structure slightly.
+> - Faced issues with spacing the rounded-pictures for the crew section. Wrapped the content in bootstrap class with flexbox properties to space them out evenly.
 > - Meet the crew section had issues with image size for different devices - the rounded pictures were to big for smaller devices. Found the solution on [Stack Overflow](https://stackoverflow.com/questions/29641526/how-can-images-be-resized-using-bootstrap#:~:text=Use%20class%3D%22img%2Dresponsive,Its%20a%20bootstrap%20class).
-> - Contact form was not being responsive on smaller laptop views. To overcome this, I included the form in a Bootstrap Grid layout.
-> - Was still not entirely happy with Carousel on mobile views and decided create a static gallery of images in mobile and tablet views instead.
+> - Had issues to push the social media links in the footer section to the right. Wrapped the content in a bootstrap class container which uses flexbox technology to horziontally align content to the right.
+> - Carousel was aligning to the left side of the page, used bootstrap class with flexbox properties to create space around the gallery and centralize it.
+> - Carousel rendered too small for mobile phones, which led me to choose a different type of gallery(static) for smaller devices.
 > - Bootstrap Carousel on desktop views was being cut off at the bottom and allowed no space for Gallery heading. To overcome this I wrapped the carousel in its own Bootstrap Container. Added the Gallery heading above keeping the entire site consistent.
-> - Encountered an issue with Bootstrap mobile navigation (hamburger menu) pushing content down when opened. This was further an issue on Firefox and Safari browsers, with content being pulled up and not positioned correctly when menu was collapsed again. To overcome this I started a new branch called 'Alternate-Nav-Menu' to work on an alternative. In CSS, I set the drop-down menu to `position:absolute` and adjusted width, background color and padding accordingly. However, this caused the navigation bar to be misplaced when in desktop view (+992px). To overcome this, I added a media query of `position:relative` and `top:0px` which worked perfectly. I then merged the branch with the master branch with no conflicts.
 > - Bootstrap Hamburger menu was opening fine but once clicking a link, it wasn't closing. I researched this and found the answer on [Stack Overflow](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked)
 ---
 
@@ -292,7 +293,7 @@ This project has been deployed on GitHub Pages with the following process:
 > - ['djibe' on Stack Overflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns) - Code idea for cards inside Jumbotron.
 > - [W3.org](https://www.w3.org/2005/10/howto-favicon) - How to add a Favicon to site.
 > - [Orel Eliyahu' on Stack Overflow](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked) for the code solution to closing hamburger menu once menu item clicked.
-https://snippets.wrappixel.com/bootstrap-our-team-section/
+[WrapPixel]https://snippets.wrappixel.com/bootstrap-our-team-section/
 https://www.behance.net/gallery/101605857/Arnie-Gym-website
 https://bbbootstrap.com/snippets/simple-payment-credit-card-form-41641728
 ['israel Villacís' on Stack Overflow]https://stackoverflow.com/questions/29641526/how-can-images-be-resized-using-bootstrap#:~:text=Use%20class%3D%22img%2Dresponsive,Its%20a%20bootstrap%20class.
