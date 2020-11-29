@@ -231,10 +231,11 @@ Through some research, I've found that Gym websits praise contrast between colou
 > - Faced issues with spacing the rounded-pictures for the crew section. Wrapped the content in bootstrap class with flexbox properties to space them out evenly.
 > - Meet the crew section had issues with image size for different devices - the rounded pictures were to big for smaller devices. Found the solution on [Stack Overflow](https://stackoverflow.com/questions/29641526/how-can-images-be-resized-using-bootstrap#:~:text=Use%20class%3D%22img%2Dresponsive,Its%20a%20bootstrap%20class).
 > - Had issues to push the social media links in the footer section to the right. Wrapped the content in a bootstrap class container which uses flexbox technology to horziontally align content to the right.
+> - Footer section had issues on mobile devices, as the sizing would get scrambled. Fixed with:
 > - Carousel was aligning to the left side of the page, used bootstrap class with flexbox properties to create space around the gallery and centralize it.
 > - Carousel rendered too small for mobile phones, which led me to choose a different type of gallery(static) for smaller devices.
-> - Bootstrap Carousel on desktop views was being cut off at the bottom and allowed no space for Gallery heading. To overcome this I wrapped the carousel in its own Bootstrap Container. Added the Gallery heading above keeping the entire site consistent.
-> - Bootstrap Hamburger menu was opening fine but once clicking a link, it wasn't closing. I researched this and found the answer on [Stack Overflow](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked)
+> - Carousel images on desktop were to wide and big, which led me to wrap the around anoter container to keep it consistent and easier to navegate through them.
+> - The map embedded in the find us section..
 ---
 
 ### Code validity

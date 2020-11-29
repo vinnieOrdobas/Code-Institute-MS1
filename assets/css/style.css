@@ -212,6 +212,7 @@ body {
     font-family: 'Teko', sans-serif;
     text-transform: uppercase;
     margin-top:18px;
+    margin-left: 15px;
 }
 
 
@@ -295,12 +296,12 @@ body {
 footer {
     background-color: rgba(0,0,0,0.60);
     color:whitesmoke;
-    min-height: 15px;
     margin: 0;
 }
 
 .social-links li a i {
     margin-top: 15px;
+    margin-right: 10px;
     width: 32px;
     height: 32px;
     padding: 12px 0;
