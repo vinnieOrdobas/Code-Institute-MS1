@@ -197,7 +197,7 @@ Through some research, I've found that Gym websits praise contrast between colou
 > - Footer section had issues on mobile devices, as the sizing would get scrambled. Fixed by wrapping in a container only visible on medium screens and above, and created another one only for smaller screens.
 > - Carousel was aligning to the left side of the page, used bootstrap class with flexbox properties to create space around the gallery and centralize it.
 > - Carousel rendered too small for mobile phones, which led me to choose a different type of gallery(static) for smaller devices.
-> - Carousel images on desktop were to wide and big, which led me to wrap the around anoter container to keep it consistent and easier to navegate through them.
+> - Carousel images on desktop were to wide and big, which led me to wrap the around another container to keep it consistent and easier to navegate through them.
 > - The map embedded in the find us section..
 ---
 
