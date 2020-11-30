@@ -151,11 +151,11 @@ Through some research, I've found that Gym websits praise contrast between colou
 
 ##### 3. Workspace, version control and Repository storage
 
-> [GitPod](https://github.com/mkuti/corklagos-venture/blob/master/gitpod.io) - Main workspace IDE (Integrated Development Environment)
+> [GitPod](https://github.com/mkuti/corklagos-venture/blob/master/gitpod.io) - IDE
 >
-> [Git](https://git-scm.com/) - Distributed Version Control tool to store versions of files and track changes.
+> [Git](https://git-scm.com/) - Version Control
 >
-> [GitHub](https://github.com/) - A cloud-based hosting service to manage my **Git** repositories.
+> [GitHub](https://github.com/) - Repository Storage
 
 ##### 4. Other
 
@@ -164,64 +164,27 @@ Through some research, I've found that Gym websits praise contrast between colou
 > [Website Page Test](https://www.webpagetest.org/) Runs a website speed test from multiple locations around the globe using real browsers (IE and Chrome) and at real consumer connection speeds. 
 > [Online-Spellcheck](https://www.online-spellcheck.com/) Online spelling and grammar checks.
 
-##### 5. IDE Extensions used in GitPod
-
-> - Auto Close Tag
-> - Auto Nametag
-> - Bracket Pair Colorizer
-> - Code Spellchecker
-> - Prettier - Code Formatter
-> - Indent-Rainbow
-
----
 
 ### Resources
 
-> - [Code Institute Course Content](https://courses.codeinstitute.net/) - Main source of fundamental knowledge.
-> - Code Institute **SLACK Community** - Main source of assistance
-> - [Stack Overflow](https://stackoverflow.com/) - General resource.
-> - [Youtube](https://www.youtube.com/) - General resource.
-> - [CSS-Tricks](https://css-tricks.com/) - General resource.
-> - [W3.CSS](https://www.w3schools.com/w3css/4/w3.css) - General resource.
-> - [CommonMark](https://commonmark.org/help/) - For Markdown language reference.
-> - [FlexBox Froggy Game](http://flexboxfroggy.com/) - Learning platform for FlexBox.
-> - [Coolors](https://coolors.co/) - Find matching color palette for site.
-> - [TinyPNG](https://tinypng.com/) - Efficient compression of images for site.
-> - [Am I Responsive](http://ami.responsivedesign.is/) - Responsive website mockup image generator.
+> - [Code Institute Course Content](https://courses.codeinstitute.net/) - Primary resource for this project.
 > - [Balsamiq](https://balsamiq.com/wireframes/) - Wireframing design tool.
-> - [Kevin Powell](https://www.youtube.com/watch?v=PHO6TBq_auI) Video tutorial on CSS Variables.
-> - [Bootsrap Grid Explanation by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - This was an invaluable resource for me to wrap my head around Grid layouts.
+> - [Bootsrap Grid Explanation by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - Resource for Bootstrap Grids.
+> - [Stack Overflow](https://stackoverflow.com/) -  Common questions.
+> - [Youtube](https://www.youtube.com/) - Tutorials.
+> - [CSS-Tricks](https://css-tricks.com/) - Quick CSS resources.
+> - [CommonMark](https://commonmark.org/help/) - For Markdown language reference.
+> - [FlexBox Zombies](http://flexboxfroggy.com/) - To learn FlexBox properties.
+> - [Coolors](https://coolors.co/) - Colours palette research.
+> - [Adobe Resize Images](https://www.adobe.com/ie/photoshop/online/resize-image.html) - Resource for resizing images
+> - [Markdown Tutorial](https://www.markdowntutorial.com/) - Used to learn Markdown.
+> - [Behance - Arnie | Gym website by Irina Syvachenko](https://www.behance.net/gallery/101605857/Arnie-Gym-website) - Inspiration for the website
+> - Code Institute **SLACK Channel** - Assistance.
 ---
 
 ### Testing
 
-> - After initial wireframe design, I checked each navigation item link is working correctly to each Page. I set a _temporary_ contrasting background colour to each page to mark out each section.
-> - Tested responsiveness of the wireframe using Dev Tools and confirmed basic structure looks and works well on all mobile decides from 320px, up to desktop size.
-> - Tested **Logo text** in menu bar to ensure it points to the Home page.
-> - Tested **About, Gallery and Contact** links in menu bar to ensure it points to each page and position correctly.
-> - Tested **Social Media icons** in Footer to ensure they open the correct pages, and in a new tab on the browser.
-> - Tested **Contact Us** link on About page and ensured that it points to the Contact page on the same site. 
-> - Tested **Facebook Community Group** link on About page to ensure they open the correct page, and in a new tab on the browser.
-> - Tested **Carousel right and left arrows** and the right arrow moves to the next image and left arrow moves to the previous image as desired. 
-> - Tested **Carousel indicator bar** and images can be selected by their position by clicking on relevant bars.
-> - Tested **Send** button on Contact page without any text in inputs to ensure that it provides the desired error of 'Please fill out this field' to appropriate required fields.
-> - Tested **Email** entry input by not entering a valid email address. This provides the desired error of 'Please include an @ in the email address'.
-> - Tested **Radio buttons** to ensure only _one option can be selected_ and that _at least one option_ is required.
-> - Further testing of Responsiveness of all pages using [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
-> - 1. [Home Page](https://search.google.com/test/mobile-friendly?id=xFabK99FmnLzZb1GxaoAQA)
-> - 2. [About Page](https://search.google.com/test/mobile-friendly?id=sdaKzF2MGaSQ6f24M7x7_g)
-> - 3. [Gallery Page](https://search.google.com/test/mobile-friendly?id=UhXGW2xJswuM9ZqXZIc6YQ)
-> - 4. [Contact Page](https://search.google.com/test/mobile-friendly?id=0KNaDvsBA9EPBlFwkz4IKA)
-> - Tested overall site colours on [a11y](https://color.a11y.com/), a Color Contrast Accessibility Validator. Test came back with excellent results.
-> - Tested [HTML Validation](https://validator.w3.org/) No errors or warnings to show.
-> - Tested [CSS Validation](https://jigsaw.w3.org/css-validator/)
-> - 1.  Parse Error on 47 items related to CSS Variable values. Researched this and found that this is a non-issue after reading reports on [Stack Overflow](https://stackoverflow.com/questions/57661659/w3c-css-validation-parse-error-on-variables) and other sources. It is a requested feature on [Github](https://github.com/w3c/css-validator/issues/111) too.
-> - 2.  Warning 'Imported style sheets are not checked in direct input and file upload modes'. Confident to ignore these after researching and a common answer is that the validator will not validate imported style sheets. See [Stack Overflow](https://stackoverflow.com/questions/25946111/importing-css-is-ending-up-with-an-error).
-> - Tested site URL on [Website Page Test](https://www.webpagetest.org/) which rendered good results. Images are on the large size in PNG format and already compressed. I chose to maintain the PNG format as the image quality of the site is integral to the UX.
-> - Checked grammar and spelling throughout document.
-> - Ran CSS through [Autoprefixer](https://autoprefixer.github.io/) and copied new CSS code back into style.css doc.
-> - Re-ran CSS Validation and 30 warnings appeared for 'unknown vendor extension'. Confident to ignore these as answered on [Stack Overflow](https://stackoverflow.com/questions/5271955/css-parse-errors-from-a-generated-stylesheet).
-> - Ran README text through [Online-Spellcheck](https://www.online-spellcheck.com/) to double-check on grammar and spelling.
+> - 
 
 ---
 
@@ -251,8 +214,6 @@ Through some research, I've found that Gym websits praise contrast between colou
 ### Version Control
 
 > - Used Git for version control.
-> - Branches were created to work on alternative fixes to issues encountered.
-> - The branches were then merged with the master branch after any conflicts were addressed.
 
 ---
 
@@ -260,45 +221,27 @@ Through some research, I've found that Gym websits praise contrast between colou
 
 This project has been deployed on GitHub Pages with the following process:
 
-> - All code was written on Gitpod, an online IDE.
-> - The code was then pushed to GitHub where it is stored in my [Repository](https://github.com/JimLynx/CI-MS1-Explore-Ireland).
-> - Under the [settings](https://github.com/JimLynx/CI-MS1-Explore-Ireland/settings) section of the GitHub repository, scrolled down to GitHub Pages section.
-> - Under 'Source' drop-down, the 'Master branch' was selected.
-> - Once selected, this publishes the project to GitHub Pages and displays the site url.
-> - There is no difference between the deployed version and the development version.
-> - The code can be run locally through clone or download.
-> - You can do this by opening the repository, clicking on the green 'Code' button and selecting either 'clone or download'.
-> - The Clone option provides a url, which you can use on your desktop IDE.
-> - The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine.
+> - 
 
 ### Credits
 
 > ##### Media
 >
-> - The main photos, logo and imagery used in this project are _owned and provided by myself_
-> - About/Trip page images are taken from [Pexels](https://www.pexels.com/), a free stock-photo library.
+> - The crew portraits were given to me by my own friends, and they hold the copyrights to them
+> - Hero image and gallery photos were taken from [Pexels](https://www.pexels.com/).
 >
 > ##### Content
 >
-> All text content is _self-written_
+> Text content was written by myself.
 >
-> ##### Bootstrap 4 CDN Boilerplate
->
-> - I've taken advantage of _Simen Daehlin's_ template boilerplate from his [Marketplace](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet)
+
 >
 > ##### Code Snippets
 >
-> - [CSS-Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) - Background image opacity on Contact page.
+> - [CSS-Tricks](https://css-tricks.com/perfect-full-page-background-image/) - Full background responsive image.
 > - [Code Institute](https://codeinstitute.net/) - Inspiration for general layout from 'Whisky Drop' Mini-Project in CSS Module.
-> - [Shuva Mallick](https://jsfiddle.net/shuvamallick/3o0h5oka/) - Inspiration code for Submit button colour slide effect.
-> - ['djibe' on Stack Overflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns) - Code idea for cards inside Jumbotron.
-> - [W3.org](https://www.w3.org/2005/10/howto-favicon) - How to add a Favicon to site.
-> - [Orel Eliyahu' on Stack Overflow](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked) for the code solution to closing hamburger menu once menu item clicked.
-[WrapPixel]https://snippets.wrappixel.com/bootstrap-our-team-section/
-https://www.behance.net/gallery/101605857/Arnie-Gym-website
-https://bbbootstrap.com/snippets/simple-payment-credit-card-form-41641728
-['israel Villacís' on Stack Overflow]https://stackoverflow.com/questions/29641526/how-can-images-be-resized-using-bootstrap#:~:text=Use%20class%3D%22img%2Dresponsive,Its%20a%20bootstrap%20class.
-
+> - [Israel Villacís' on Stack Overflow](https://stackoverflow.com/questions/29641526/how-can-images-be-resized-using-bootstrap#:~:text=Use%20class%3D%22img%2Dresponsive,Its%20a%20bootstrap%20class) for the code solution to reduce images for smaller screens.
+> - [WrapPixel](https://snippets.wrappixel.com/bootstrap-our-team-section/) - Code snippet for the "Meet the Crew" section.
 ---
 
 > ##### Acknowledgments
