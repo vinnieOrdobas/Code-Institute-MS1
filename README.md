@@ -2,24 +2,6 @@
 
 A one page web app showcasing Doug's Gym's facilities, conveying a healthy lifestyle and a friendly community.
 
- 
-### Table of Contents
-
-> - Description - x
-> - User Stories - x
-> - UX - x
-> - Features - x
-> - Technologies Used
-> - References for learning
-> - Testing
-> - Bugs and the turnarounds
-> - Code validity
-> - Version Control
-> - Deployment
-> - Credits
-> - Acknowledgments
-> - Support
-
 
 ### Description
 
@@ -97,18 +79,18 @@ Doug's Club website aims at a broader community, targeting people from diverse b
 
 Through some research, I've found that Gym websits praise contrast between colour palettes, so I've picked darker tones in contrast with brighter colours, albeit with darker tonalities.
 
-> ###### Colours
+> ##### Colours
 >
 > Darker grafite tonalities, black-and-white hero image in contrast with brighter tones - to make components "jump" and to mimic moviment. 
 > - I've picked a bright, deep ocean blue(#003049) for one of the background-wrappers and a leafy green(#003049) for the other. 
 > - For body text, I've used a combination of regular black, whitesmoke for the bright text. For the button-togglers and the text the jumbotron, I've chosen a darker "blood red" (#AE3A21)
 > 
-> ###### Typography
+> ##### Typography
 >
 > - "Teko" font (with fall-back font of Sans-Serif) for main headings. This font was picked for its hard angles, to create a stronger contrast with background-colours.
 > - "Roboto" font (with fall-back font of Sans-Serif) for body content.
 >
-> ###### Images
+> ##### Images
 >
 > The images are a representation of what a GYM would have for infrastructure, as a way for customers to see it before visiting the club.
 
@@ -120,8 +102,8 @@ Through some research, I've found that Gym websits praise contrast between colou
 
 > - Designed with HTML5, CSS3, Bootstrap and Flexbox.
 > - Single page site with five sections acting as individual pages.
-> - Fixed navigation allows the user to easily navigate, regardless of which page visited.
-> - Fixed footer allows the user quick accessibility to social media links.
+> - Navigation bar allows the user to easily navigate, regardless of which page visited.
+> - Footer allows the user quick accessibility to social media links.
 > - Carousel with subtitles to introduce the club's infrastructure.
 > - Adjusable pictures with rounded frames for introduce the crew.
 > - Sign up form and find us with an embedded map.
@@ -193,6 +175,7 @@ Through some research, I've found that Gym websits praise contrast between colou
 > - The "Crew" section had aligning issues with lack of structure. The way around was to use a code snippet I found on [WrapPixel](https://snippets.wrappixel.com/bootstrap-our-team-section/) and change the structure slightly.
 > - Faced issues with spacing the rounded-pictures for the crew section. Wrapped the content in bootstrap class with flexbox properties to space them out evenly.
 > - Meet the crew section had issues with image size for different devices - the rounded pictures were to big for smaller devices. Found the solution on [Stack Overflow](https://stackoverflow.com/questions/29641526/how-can-images-be-resized-using-bootstrap#:~:text=Use%20class%3D%22img%2Dresponsive,Its%20a%20bootstrap%20class).
+> - Rounded pictures had different sizes, which was pushing the subtitle and the description of each member to different places.
 > - Had issues to push the social media links in the footer section to the right. Wrapped the content in a bootstrap class container which uses flexbox technology to horziontally align content to the right.
 > - Footer section had issues on mobile devices, as the sizing would get scrambled. Fixed by wrapping in a container only visible on medium screens and above, and created another one only for smaller screens.
 > - Carousel was aligning to the left side of the page, used bootstrap class with flexbox properties to create space around the gallery and centralize it.
@@ -227,14 +210,14 @@ This project has been deployed on GitHub Pages with the following process:
 
 > ##### Media
 >
-> - The crew portraits were given to me by my own friends, and they hold the copyrights to them
+> - The crew portraits were given to me by my friends, and they hold the copyrights to them
 > - Hero image and gallery photos were taken from [Pexels](https://www.pexels.com/).
 >
 > ##### Content
 >
 > Text content was written by myself.
 >
-
+>
 >
 > ##### Code Snippets
 >
@@ -248,13 +231,16 @@ This project has been deployed on GitHub Pages with the following process:
 >
 > I would like to thank:
 >
-> - My mentor, **Brian Macharia**, for his guidance, patience and encouragement throughout this project.
-> - **Bim Williams** and **Simen Daehlin** for their selfless approach to sharing of their time, experience, skill and knowledge. These sessions and casual chats have allowed me to grow my skill immensely in a short period of time.
-> - **CI staff** and **Slack Community** for always being on-hand with questions posted and assistance requests.
-> - Everyone that takes part in the Slack calls, specifically from the **#In-It-Together** and **#Study-Group** channels.
+> - **Victor Miclovich**, my Mentor, for his insights, composure and experience. His invaluable assistance helped make this project reality.
+> - **Jim Morel (JimLynx_lead)** for the resources, inspiration and overall awesomeness.
+> - **Anderson Gonçalves** for taking the time to meet me and talk about this project, for tips and incredible insights, but above all, for his friendship.
+> - **Ronaldo Carvalho**, **Nathalia Veronese**, **Mauricio Meirinhos** for always being there for me, for their feedback and to have provided their faces for the project.
+> - **Douglas Santos** for his friendship. You're sorely missed brother.
+> - **CI staff** for their care and affableness, and for always make sure I was in the right path.
+> - **Slack Community** for their help with my code, for support and to make me feel part of the community.
 
 ### Support
 
-> For any issue resolution or assistance, please email Jim Morel on jim.lynx@gmail.com
+> For bug resolution, please reach Vinnie Ordobas on viniordobas@icloud.com.
 
 ---
