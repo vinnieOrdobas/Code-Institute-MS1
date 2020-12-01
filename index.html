@@ -392,17 +392,35 @@
                         </div>
                     </form>
                 </div>
+                <!--/.Sign-up Form-->
+                <!--Find us-->
                 <div class="col-12 col-lg-6">
-                    <section class="findus">
-                        <h2 class="section-header text-uppercase">Find us</h2>
-                        <div id="map">
-
+                    <div class="card-deck">
+                        <div class="card text-center">
+                            <div class="card-body justify-content-center">
+                                <h4 class="card-title name-header">Location </h4>
+                                <div class="map-wrapper">
+                                    <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.069159238805!2d-115.17668768379335!3d36.11617281360064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c43c44cae095%3A0x77c9c8f2a2af3ff7!2sCaesars%20Palace!5e0!3m2!1sen!2sie!4v1606826823499!5m2!1sen!2sie" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                </div>
+                            </div>
                         </div>
-                    </section>
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h4 class="card-title name-header">Contact us</h4>
+                                <div class="text-left my-5 findus-content">
+                                    <i class="fas fa-phone fa-3x"><span class="name-header">555-555</span></i>
+                                </div>
+                                <br>
+                                <div class="text-left my-5 findus-content">
+                                    <i class="fas fa-envelope fa-3x"></i><span class="name-header">info@dougs.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!--/.Find us-->
             </div>
         </div>
-        <!--/.Sign-up Form-->
     </article>
     <!--Footer-->
     <footer>
@@ -504,25 +522,5 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4O9ESC5rNxCastBekZnYEqIDqWHJZHxs&callback=initMap&libraries=&v=weekly"
-      defer></script>
-       <script>
-      // Initialize and add the map
-      function initMap() {
-        // The location of Uluru
-        const uluru = { lat: -25.344, lng: 131.036 };
-        // The map, centered at Uluru
-        const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 4,
-          center: uluru,
-        });
-        // The marker, positioned at Uluru
-        const marker = new google.maps.Marker({
-          position: uluru,
-          map: map,
-        });
-      }
-    </script>
 </body>
 </html>

@@ -40,6 +40,7 @@ body {
 
 .container-signup {
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .container-footer-md {
@@ -314,14 +315,27 @@ body {
 
 /** ---------------------Map--------------------- **/
 
-/* Set the size of the div element that contains the map */
-#map {
-  height: 300px;
-  /* The height is 400 pixels */
-  width: 50%;
-  /* The width is the width of the web page */
+.googlemap {
+    width: 100%;
 }
 
+.map-wrapper {
+    max-width: 500px;
+    margin-left: 40px;
+}
+
+.findus-map {
+    margin-top: 30px;
+}
+
+.findus-card {
+    margin-top:30px;
+}
+
+.findus-content span {
+    padding-left: 30px;
+    font-size: 40px;
+}
 
 /** ---------------------Footer--------------------- **/
 
