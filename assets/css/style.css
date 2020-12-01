@@ -311,6 +311,18 @@ body {
     box-shadow: 0 0 0 #F44336
 }
 
+
+/** ---------------------Map--------------------- **/
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 300px;
+  /* The height is 400 pixels */
+  width: 50%;
+  /* The width is the width of the web page */
+}
+
+
 /** ---------------------Footer--------------------- **/
 
 .social-links-md li a i {
