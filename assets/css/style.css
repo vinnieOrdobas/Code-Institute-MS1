@@ -27,8 +27,8 @@ body {
             justify-content: center;
 }
 
-.container-about {
-    margin-bottom:0;
+.container-about-header {
+    margin-bottom:-70px;
 }
 
 .container-team {
@@ -53,10 +53,14 @@ body {
     display: inline-block;
 }
 
+.container-gallery {
+    padding-top: 0px
+}
+
 /** ---------------------Section Headers--------------------- **/
 
 .section-header {
-    margin-bottom: 0;
+    margin-bottom: -70px;
     border-bottom:0;
     display:-webkit-box;
     display:-ms-flexbox;
