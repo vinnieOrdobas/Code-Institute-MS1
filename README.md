@@ -181,7 +181,8 @@ Through some research, I've found that Gym websits praise contrast between colou
 > - Carousel was aligning to the left side of the page, used bootstrap class with flexbox properties to create space around the gallery and centralize it.
 > - Carousel rendered too small for mobile phones, which led me to choose a different type of gallery(static) for smaller devices.
 > - Carousel images on desktop were to wide and big, which led me to wrap the around another container to keep it consistent and easier to navegate through them.
-> - The map embedded in the find us section..
+> - On the find us section, I had issues with embedding the map. I followed the tutorial found on [Youtube](https://youtu.be/UqXeX1Irv5o) - How to Make a Responsive Google Map Embed with CSS (EASY), by garnatti one.
+> - In order to align the content in one section, I wrapped the Google maps snippet and the find us content in a card deck.
 ---
 
 ### Code validity
