@@ -45,6 +45,9 @@ body {
     padding-top: 0px
 }
 
+.container-signup {
+    padding-bottom: 20px;
+}
 /** ---------------------Section Headers--------------------- **/
 
 .section-header {
@@ -229,7 +232,7 @@ body {
 }
 
 .about-header {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .name-header-footer-md {
@@ -275,6 +278,10 @@ body {
 
 /** ---------------------Signup Form--------------------- **/
 
+.contact-form {
+    margin-bottom: 30px;
+}
+
 /** ---------------------Map--------------------- **/
 
 .googlemap {
@@ -283,6 +290,8 @@ body {
 
 .map-wrapper {
     max-width: 500px;
+    margin: 0 auto;
+    display: block;
 }
 
 .findus-map {

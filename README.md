@@ -159,6 +159,7 @@ Through some research, I've found that Gym websits praise contrast between colou
 > - [FlexBox Zombies](http://flexboxfroggy.com/) - To learn FlexBox properties.
 > - [Coolors](https://coolors.co/) - Colours palette research.
 > - [Adobe Resize Images](https://www.adobe.com/ie/photoshop/online/resize-image.html) - Resource for resizing images
+> - [TinyPNG](https://www.tinypng.com) - Resource to compress gallery images.
 > - [Markdown Tutorial](https://www.markdowntutorial.com/) - Used to learn Markdown.
 > - [Behance - Arnie | Gym website by Irina Syvachenko](https://www.behance.net/gallery/101605857/Arnie-Gym-website) - Inspiration for the website
 > - Code Institute **SLACK Channel** - Assistance.
