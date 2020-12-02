@@ -35,22 +35,10 @@ body {
     padding-bottom: 0;
 }
 
-.container-signup {
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
 .container-footer-md {
     background-color: rgba(0,0,0,0.60);
     color:whitesmoke;
     margin: 0;
-}
-
-.container-footer-sm {
-    background-color: rgba(0,0,0,0.60);
-    color:whitesmoke;
-    margin: 0;
-    display: inline-block;
 }
 
 .container-gallery {
@@ -60,17 +48,32 @@ body {
 /** ---------------------Section Headers--------------------- **/
 
 .section-header {
+    border-bottom:0;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-align:start;
+    -ms-flex-align:start;
+    align-items:flex-start;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 3px;
+}
+
+.section-header-sm {
     margin-bottom: -70px;
     border-bottom:0;
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex;
     -webkit-box-pack:center;
-        -ms-flex-pack:center;
-            justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center;
     -webkit-box-align:start;
-        -ms-flex-align:start;
-            align-items:flex-start;
+    -ms-flex-align:start;
+    align-items:flex-start;
     font-family: 'Teko', sans-serif;
     letter-spacing: 3px;
 }
@@ -271,59 +274,6 @@ body {
 }
 
 /** ---------------------Signup Form--------------------- **/
-.padding {
-    padding: 5rem !important;
-    margin-left: 300px
-}
-
-.card {
-    margin-bottom: 1.5rem
-}
-
-.card {
-    position: relative;
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: flex;
-    -ms-flex-direction: column;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid #c8ced3;
-    border-radius: .25rem
-}
-
-.card-header:first-child {
-    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0
-}
-
-.card-header {
-    padding: .75rem 1.25rem;
-    margin-bottom: 0;
-    background-color: #f0f3f5;
-    border-bottom: 1px solid #c8ced3
-}
-
-.card-body {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 auto;
-            flex: 1 1 auto;
-    padding: 1.25rem
-}
-
-.form-control:focus {
-    color: #5c6873;
-    background-color: #fff;
-    border-color: #c8ced3 !important;
-    outline: 0;
-    -webkit-box-shadow: 0 0 0 #F44336;
-            box-shadow: 0 0 0 #F44336
-}
-
 
 /** ---------------------Map--------------------- **/
 
@@ -379,7 +329,7 @@ body {
     line-height: 7px;
     text-align: center;
     color: whitesmoke;
-    background: #8f8f8f;
+    background: black;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
