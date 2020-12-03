@@ -166,7 +166,14 @@ Through some research, I've found that Gym websites praise contrast between colo
 
 ### Testing
 
-> - 
+> - Tested Responsiveness of the page with [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly).
+> - Used [HTML Validation](https://validator.w3.org/) No errors or warnings to show.
+> - Used [CSS Validation](https://jigsaw.w3.org/css-validator/) No errors or warnings to show.
+> - Tested site URL on [Website Page Test](https://www.webpagetest.org/) - rendered a good enough result, as it took 4.33 seconds to load the page. 
+> - Ran CSS through [Autoprefixer](https://autoprefixer.github.io/) to format style.css.
+> - Used [Grammarly](https://www.grammarly.com) to check grammar and spelling through the document/page.
+> - Ran README text through [Online-Spellcheck](https://www.online-spellcheck.com/) to make sure the document was presentable.
+
 
 ---
 
@@ -205,7 +212,16 @@ Through some research, I've found that Gym websites praise contrast between colo
 
 This project has been deployed on GitHub Pages with the following process:
 
-> - 
+> - All code was written on Gitpod, an online IDE.
+> - The code was then pushed to GitHub where it is stored in my [Repository](https://github.com/vinnieOrdobas/Code-Institute-MS1).
+> - Under the [settings](https://github.com/vinnieOrdobas/Code-Institute-MS1) section of the GitHub repository, scrolled down to GitHub Pages section.
+> - Under 'Source' drop-down, the 'Master branch' was selected.
+> - Once selected, this publishes the project to GitHub Pages and displays the site url.
+> - There is no difference between the deployed version and the development version.
+> - The code can be run locally through clone or download.
+> - You can do this by opening the repository, clicking on the green 'Code' button and selecting either 'clone or download'.
+> - The Clone option provides a url, which you can use on your desktop IDE.
+> - The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine.
 
 ### Credits
 

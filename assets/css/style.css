@@ -1,272 +1,272 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 body {
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 
 /** ---------------------Section Containers--------------------- **/
 
 .article-container {
-    padding: 0;
+	padding: 0;
 }
 
 .container-hero {
-    height: 100vh;
-    width: 100%;
-    background: url("../images/hero-image.jpg") no-repeat center center fixed;
-    background-size: cover;
-
-    display: -webkit-box;
-
-    display: -ms-flexbox;
-
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+	height: 100vh;
+	width: 100%;
+	background: url("../images/hero-image.jpg") no-repeat center center fixed;
+	background-size: cover;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 
 .container-about-header {
-    margin-bottom:-70px;
+	margin-bottom: -70px;
 }
 
 .container-team {
-    padding-bottom: 0;
+	padding-bottom: 0;
 }
 
 .container-footer-md {
-    background-color: rgba(0,0,0,0.60);
-    color:whitesmoke;
-    margin: 0;
+	background-color: rgba(0, 0, 0, 0.60);
+	color: whitesmoke;
+	margin: 0;
 }
 
 .container-gallery {
-    padding-top: 0px
+	padding-top: 0px
 }
 
 .container-signup {
-    padding-bottom: 20px;
+	padding-bottom: 20px;
 }
+
+
 /** ---------------------Section Headers--------------------- **/
 
 .section-header {
-    border-bottom:0;
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-pack:center;
-    -ms-flex-pack:center;
-    justify-content:center;
-    -webkit-box-align:start;
-    -ms-flex-align:start;
-    align-items:flex-start;
-    font-family: 'Teko', sans-serif;
-    letter-spacing: 3px;
+	border-bottom: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	font-family: 'Teko', sans-serif;
+	letter-spacing: 3px;
 }
 
 .section-header-sm {
-    margin-bottom: -70px;
-    border-bottom:0;
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-pack:center;
-    -ms-flex-pack:center;
-    justify-content:center;
-    -webkit-box-align:start;
-    -ms-flex-align:start;
-    align-items:flex-start;
-    font-family: 'Teko', sans-serif;
-    letter-spacing: 3px;
+	margin-bottom: -70px;
+	border-bottom: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	font-family: 'Teko', sans-serif;
+	letter-spacing: 3px;
 }
 
 .text-uppercase {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
+
 
 /** ---------------------Components--------------------- **/
 
 .hero-j {
-    background-color: transparent;
-
+	background-color: transparent;
 }
 
 .hero-j .section-header {
-    font-weight: bold;
-    color: #AE3A21;
-
+	font-weight: bold;
+	color: #AE3A21;
 }
 
 
 /** ---------------------Block Dividers--------------------- **/
 
 .block-divider--white {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: whitesmoke;
+	width: 75px;
+	height: 5px;
+	border: 0;
+	background-color: whitesmoke;
 }
 
 .block-divider--black {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: black;
+	width: 75px;
+	height: 5px;
+	border: 0;
+	background-color: black;
 }
 
 
 /** ---------------------Buttons--------------------- **/
 
 .button-signup {
-    font-weight: bold;
-    border-radius:23px;
-    width: 160px;
-    background-color: #7f7f8d;
-    border-color: #7f7f8d;
-    color: whitesmoke;
+	font-weight: bold;
+	border-radius: 23px;
+	width: 160px;
+	background-color: #7f7f8d;
+	border-color: #7f7f8d;
+	color: whitesmoke;
 }
 
 .button-signin {
-    font-weight: bold;
-    border-radius:50%;
-    width: 32px;
-    height: 32px;
-    background-color: #7f7f8d;
-    border-color: #7f7f8d;
-    color: whitesmoke;
+	font-weight: bold;
+	border-radius: 50%;
+	width: 32px;
+	height: 32px;
+	background-color: #7f7f8d;
+	border-color: #7f7f8d;
+	color: whitesmoke;
 }
 
 .button-signup:hover,
 .button-signup:active,
 .button-signup:focus,
 .button-signup:active:focus {
-    background-color: #AE3A21;
-    border-color: #AE3A21;
+	background-color: #AE3A21;
+	border-color: #AE3A21;
 }
 
 .button-signin:hover,
 .button-signin:active,
 .button-signin:focus,
 .button-signin:active:focus {
-    background-color: #AE3A21;
-    border-color: #AE3A21;
+	background-color: #AE3A21;
+	border-color: #AE3A21;
 }
 
 
 /** ---------------------Navbar--------------------- **/
 
 .navalert-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .navbar {
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    background-color: rgba(0,0,0,0.25);
+	margin-bottom: 0;
+	border: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.25);
 }
+
 .navbar .navbar-toggler {
-    border:0;
+	border: 0;
 }
 
 .navbar-dark .navbar-brand {
-    font-weight: bold;
-    font-family: 'Teko', sans-serif;
-    letter-spacing: 2px;
-    color: whitesmoke;
+	font-weight: bold;
+	font-family: 'Teko', sans-serif;
+	letter-spacing: 2px;
+	color: whitesmoke;
 }
 
 .navbar .navbar-nav a {
-    font-weight:bold;
+	font-weight: bold;
 }
+
 
 /** ---------------------Content Containers--------------------- **/
 
 .content-container {
-    padding-top: 25px;
-    padding-bottom:50px;
+	padding-top: 25px;
+	padding-bottom: 50px;
 }
+
 
 /** ---------------------Container Wrappers--------------------- **/
 
 .container-wrapper--blue {
-    background-color:#003049;
-    color:whitesmoke;
+	background-color: #003049;
+	color: whitesmoke;
 }
 
 .container-wrapper--color {
-    background-color:#116466;
-    color: whitesmoke;
+	background-color: #116466;
+	color: whitesmoke;
 }
+
 
 /** ---------------------Features--------------------- **/
 
 .feature {
-    text-align: center;
-    margin-bottom: 40px;
+	text-align: center;
+	margin-bottom: 40px;
 }
 
 .feature i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
+	margin-bottom: 20px;
+	font-size: 45px;
+	line-height: 45px;
 }
 
 
 /** ---------------------Name Headers--------------------- **/
 
-.name-header  {
-    font-family: 'Teko', sans-serif;
-    text-transform: uppercase;
+.name-header {
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
 }
 
-
 .round-picture {
-    padding-right: 20px;
-    padding-left: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 .about-header {
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .name-header-footer-md {
-    font-family: 'Teko', sans-serif;
-    text-transform: uppercase;
-    margin-top:18px;
-    margin-left: 15px;
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+	margin-top: 18px;
+	margin-left: 15px;
 }
 
 .name-header-footer-sm {
-    font-family: 'Teko', sans-serif;
-    text-transform: uppercase;
-    margin-top:12px;
-    margin-left: 5px;
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+	margin-top: 12px;
+	margin-left: 5px;
 }
 
 
 /** ---------------------Team Code-Snippet--------------------- **/
+
 .team4 {
-    font-family: "Montserrat", sans-serif;
-    color: whitesmoke;
-    font-weight: 300;
+	font-family: "Montserrat", sans-serif;
+	color: whitesmoke;
+	font-weight: 300;
 }
 
-.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
-  color: black;
+.team4 h1,
+.team4 h2,
+.team4 h3,
+.team4 h4,
+.team4 h5,
+.team4 h6 {
+	color: black;
 }
 
 .team4 .font-weight-medium {
@@ -274,89 +274,95 @@ body {
 }
 
 .team4 h5 {
-    line-height: 22px;
-    font-size: 28px;
+	line-height: 22px;
+	font-size: 28px;
 }
 
 .team4 .subtitle {
-    color: whitesmoke;
-    line-height: 24px;
+	color: whitesmoke;
+	line-height: 24px;
 	font-size: 18px;
 }
+
 
 /** ---------------------Signup Form--------------------- **/
 
 .contact-form {
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
+
 
 /** ---------------------Map--------------------- **/
 
 .googlemap {
-    width: 100%;
+	width: 100%;
 }
 
 .map-wrapper {
-    max-width: 500px;
-    margin: 0 auto;
-    display: block;
+	max-width: 500px;
+	margin: 0 auto;
+	display: block;
 }
 
 .findus-map {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
 .findus-card {
-    margin-top:30px;
+	margin-top: 30px;
 }
 
 .findus-content span {
-    padding-left: 30px;
-    font-size: 25px;
+	padding-left: 30px;
+	font-size: 25px;
 }
+
 
 /** ---------------------Footer--------------------- **/
 
 .social-links-md li a i {
-    margin-top: 15px;
-    margin-right: 10px;
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 18px;
-    line-height: 10px;
-    text-align: center;
-    color: whitesmoke;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+	margin-top: 15px;
+	margin-right: 10px;
+	width: 32px;
+	height: 32px;
+	padding: 12px 0;
+	border-radius: 50%;
+	font-size: 18px;
+	line-height: 10px;
+	text-align: center;
+	color: whitesmoke;
+	background: #8f8f8f;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 }
 
 .social-links-sm li a i {
-    margin-top: 15px;
-    margin-right: 10px;
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: whitesmoke;
-    background: black;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-.social-links li a i:hover {
-    background:#AE3A21;
+	margin-top: 15px;
+	margin-right: 10px;
+	width: 32px;
+	height: 32px;
+	padding: 12px 0;
+	border-radius: 50%;
+	font-size: 13px;
+	line-height: 7px;
+	text-align: center;
+	color: whitesmoke;
+	background: black;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 }
 
+.social-links li a i:hover {
+	background: #AE3A21;
+}
+
+
 /** ---------------------Images--------------------- **/
- .round-picture {
-     margin-top: 40px;
- }
+
+.round-picture {
+	margin-top: 40px;
+}
