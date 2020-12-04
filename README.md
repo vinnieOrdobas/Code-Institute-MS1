@@ -248,7 +248,7 @@ This project has been deployed on GitHub Pages with the following process:
 >
 > I would like to thank:
 >
-> - **Victor Microfiche**, my Mentor, for his insights, composure and experience. His invaluable assistance helped make this project reality.
+> - **Victor Miclovich**, my Mentor, for his insights, composure and experience. His invaluable assistance helped make this project reality.
 > - **Jim Morel (JimLynx_lead)** for the resources, inspiration and overall awesomeness.
 > - **Anderson Gonçalves** for taking the time to meet me and talk about this project, for tips and incredible insights, but above all, for his friendship.
 > - **Ronaldo Carvalho**, **Nathalia Veronese**, **Mauricio Meirinhos** for being always there for me, for their feedback and to have provided their faces for the project.
