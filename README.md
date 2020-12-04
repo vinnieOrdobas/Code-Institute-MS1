@@ -13,7 +13,7 @@ A one-page web app showcasing Doug's Gym's facilities, conveying a healthy lifes
 
 > - _"Between work and university, I don't have time to sign a contract to workout. I need a simpler process to sign-up."_
 > - _"I spend eight hours or more working on a PC. If I'm browsing a service for myself, I want to do it through my phone."_
-> - _"The life of a student ain't easy - we're constantly on a budget. I need a service that fits on my pocket."_
+> - _"The life of a student ain't easy - we're constantly on a budget. I need a service that fits in my pocket."_
 > - _"I feel like having a supportive community helps our achieve our goals - I want to workout in a friendly environment."_
 
 
@@ -199,8 +199,7 @@ Through some research, I've found that Gym websites praise contrast between colo
 >
 > CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 >
-> TAGS - [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) - Validates all tags are opening and closing correctly.
-
+> TAGS - [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) - Validates if tags are correctly closed.
 ---
 
 ### Version Control
