@@ -190,6 +190,7 @@ Through some research, I've found that Gym websites praise contrast between colo
 > - Carousel images on desktop were too wide and big, which led me to wrap the around another container to keep it consistent and easier to navigate through them.
 > - On the find us section, I had issues with embedding the map. I followed the tutorial found on [Youtube](https://youtu.be/UqXeX1Irv5o) - How to Make a Responsive Google Map Embed with CSS (EASY), by garnatti one.
 > - In order to align the content in one section, I wrapped the Google maps snippet and the find us content in a card deck.
+> - Background image wasn't rendering well on mobile devices (it was rendering well on Dev Tools, not on mobile devices per se.) I asked the question on [Stack Overflow](https://stackoverflow.com/questions/65139910/background-image-appears-zoomed-in-on-mobile-screens) and found the solution.
 ---
 
 ### Code validity
