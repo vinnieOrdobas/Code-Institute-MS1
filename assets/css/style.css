@@ -366,3 +366,9 @@ body {
 .round-picture {
 	margin-top: 40px;
 }
+
+@media (max-width: 768px) {
+    body {
+        height:100vh;
+    }
+}
