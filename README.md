@@ -155,7 +155,7 @@ Through some research, I've found that Gym websites praise contrast between colo
 > - [Youtube](https://www.youtube.com/) - Tutorials.
 > - [CSS-Tricks](https://css-tricks.com/) - Quick CSS resources.
 > - [Common Mark](https://commonmark.org/help/) - For Markdown language reference.
-> - [Flexion Zombies](http://flexboxfroggy.com/) - To learn Flexion properties.
+> - [Flexbox Zombies](https://geddski.teachable.com/p/flexbox-zombies) - To learn Flexbox technology.
 > - [Coolors](https://coolors.co/) - Colours palette research.
 > - [Adobe Resize Images](https://www.adobe.com/ie/photoshop/online/resize-image.html) - Resource for resizing images
 > - [Tiny PNG](https://www.tinypng.com) - Resource to compress gallery images.
